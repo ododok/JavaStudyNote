@@ -1,4 +1,6 @@
-    public static String reverseString(String str1) {
+//How reverse a String with StringBuffer. 
+
+public static String reverseString(String str1) {
 
         StringBuffer sb = new StringBuffer(str1);
         String str2 = sb.reverse().toString();
